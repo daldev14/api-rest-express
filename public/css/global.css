@@ -1,4 +1,6 @@
 @import url("./reset.css");
+@import url("./styles.css");
+
 html {
   font-family: "Poppins", sans-serif;
 }
