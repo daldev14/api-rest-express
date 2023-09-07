@@ -9,6 +9,7 @@ const app = express();
 app.disable("x-powered-by");
 app.use(express.json());
 app.use(corsMiddleware());
+app.use("/static", express.static(path.join(__dirname, "../public")));
 app.use(express.static(path.join(__dirname, "../public/")));
 
 const PORT = process.env.PORT ?? 3000;
