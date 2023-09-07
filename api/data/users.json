@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a8dcd934-6086-4a99-af5b-61034ffa5734",
+    "email": "admin@mail.com",
+    "password": "admin123",
+    "name": "Admin",
+    "role": "admin",
+    "avatar": "https://api.multiavatar.com/admin.jpg",
+    "creationAt": "2023-09-04T02:20:54.000Z",
+    "updatedAt": "2023-09-04T02:20:54.000Z"
+  },
+  {
+    "id": "aa35778d-df00-49a7-8a19-215c8147a46e",
+    "email": "john@mail.com",
+    "password": "changeme",
+    "name": "Jhon",
+    "role": "customer",
+    "avatar": "https://api.multiavatar.com/2.jpg",
+    "creationAt": "2023-09-04T02:20:54.000Z",
+    "updatedAt": "2023-09-04T02:20:54.000Z"
+  },
+  {
+    "id": "2bf167ba-88b6-4f34-a56e-b18c05a12ab5",
+    "email": "testing@mail.com",
+    "password": "123456test",
+    "name": "testing",
+    "role": "customer",
+    "avatar": "https://api.multiavatar.com/3.jpg",
+    "creationAt": "2023-09-04T05:00:20.000Z",
+    "updatedAt": "2023-09-04T05:00:20.000Z"
+  },
+  {
+    "id": "312af65a-e371-4cb4-a5bc-5e91b7ae3c5f",
+    "email": "nicolas@mail.com",
+    "password": "1234",
+    "name": "Nicolas",
+    "role": "admin",
+    "avatar": "https://api.multiavatar.com/4.jpg",
+    "creationAt": "2023-09-04T05:56:29.000Z",
+    "updatedAt": "2023-09-04T05:56:29.000Z"
+  },
+  {
+    "id": "2d0545bb-c41d-4e4b-bfab-6b44fded7ea8",
+    "email": "dhiren@mail.com",
+    "password": "123456",
+    "name": "dhiren",
+    "role": "customer",
+    "avatar": "https://api.multiavatar.com/5.jpg",
+    "creationAt": "2023-09-04T07:05:18.000Z",
+    "updatedAt": "2023-09-04T07:05:18.000Z"
+  },
+  {
+    "id": "a12ed86e-07a6-4281-a2de-9656d479d4fc",
+    "email": "vipul@mail.com",
+    "password": "123456",
+    "name": "vipul",
+    "role": "customer",
+    "avatar": "https://api.multiavatar.com/6.jpg",
+    "creationAt": "2023-09-04T07:07:50.000Z",
+    "updatedAt": "2023-09-04T07:07:50.000Z"
+  },
+  {
+    "id": "6484c798-4c33-4dfc-b73b-b8930a8a3f32",
+    "email": "aibek@mail.ru",
+    "password": "aibek123",
+    "name": "Айбек",
+    "role": "customer",
+    "avatar": "https://api.multiavatar.com/7.jpg",
+    "creationAt": "2023-09-04T08:09:46.000Z",
+    "updatedAt": "2023-09-04T08:09:46.000Z"
+  },
+  {
+    "id": "d4512e4c-567c-4b35-b177-b575b72fd3c5",
+    "email": "maria@mail.com",
+    "password": "asqwedw",
+    "name": "maria",
+    "role": "testing",
+    "avatar": "https://api.multiavatar.com/8.jpg",
+    "creationAt": "2023-09-04T09:11:21.000Z",
+    "updatedAt": "2023-09-04T09:11:21.000Z"
+  },
+  {
+    "id": "66154edf-3cda-43a7-8368-cba54db83e69",
+    "email": "abc@mail.com",
+    "password": "123456",
+    "name": "abc",
+    "role": "customer",
+    "avatar": "https://api.multiavatar.com/9.jpg",
+    "creationAt": "2023-09-04T10:32:29.000Z",
+    "updatedAt": "2023-09-04T10:32:29.000Z"
+  },
+  {
+    "id": "00b3a94a-66f3-45cb-a85b-2b676f2f157b",
+    "email": "fernando@mail.com",
+    "password": "Arvania13",
+    "name": "Cigra Apta Saputra ",
+    "role": "customer",
+    "avatar": "https://api.multiavatar.com/10.jpg",
+    "creationAt": "2023-09-04T12:16:57.000Z",
+    "updatedAt": "2023-09-04T12:16:57.000Z"
+  },
+  {
+    "id": "d7f62ffa-23a7-4c30-8709-3987e0dffe57",
+    "email": "abdoo@mail.com",
+    "password": "1234",
+    "name": "نننن",
+    "role": "customer",
+    "avatar": "https://api.multiavatar.com/11.jpg",
+    "creationAt": "2023-09-04T12:17:17.000Z",
+    "updatedAt": "2023-09-04T12:17:17.000Z"
+  },
+  {
+    "id": "9e61d530-c188-4a2e-97ec-82118cd98bc8",
+    "email": "agsfinks@mail.com",
+    "password": "123456",
+    "name": "aleks",
+    "role": "customer",
+    "avatar": "https://api.multiavatar.com/12.jpg",
+    "creationAt": "2023-09-04T14:23:17.000Z",
+    "updatedAt": "2023-09-04T14:23:17.000Z"
+  }
+]

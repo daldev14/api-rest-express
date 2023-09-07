@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake API</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__title">Fake Api</h1>
+        <div class="header__redes">
+          <a href="https://github.com/daldev14" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.25"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+              ></path>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/danielamayal/" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.25"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+              ></path>
+              <path d="M8 11l0 5"></path>
+              <path d="M8 8l0 .01"></path>
+              <path d="M12 16l0 -5"></path>
+              <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div>
+        <h2 class="main__title">Resources</h2>
+        <p class="main__description">
+          All HTTP methods are supported. You can use http or https for your
+          requests.
+        </p>
+      </div>
+
+      <div class="sources">
+        <!-- products -->
+        <section class="source__container">
+          <h3 class="source__title">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M0 0h24v24H0z" stroke="none" stroke-width="0.8" />
+              <path
+                d="M3 21h18M3 7v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7H3L5 3h14l2 4M5 21V10.85M19 21V10.85M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4"
+              />
+            </svg>
+            <span> Products </span>
+          </h3>
+
+          <!-- rutas -->
+          <table>
+            <tbody>
+              <!-- get all products -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--get">Get</span>
+                </td>
+                <td>
+                  <a
+                    href="/api/v1/products"
+                    target="_blank"
+                    class="route__link"
+                  >
+                    /products
+                  </a>
+                </td>
+              </tr>
+
+              <!-- get product by id -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--get">Get</span>
+                </td>
+                <td>
+                  <a
+                    href="/api/v1/products/20476778-730e-405b-b7e3-2902cb8fe2e8"
+                    target="_blank"
+                    class="route__link"
+                  >
+                    /products/:id
+                  </a>
+                </td>
+              </tr>
+
+              <!-- get products by category -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--get">Get</span>
+                </td>
+                <td>
+                  <a
+                    href="/api/v1/products/category/smartphones"
+                    target="_blank"
+                    class="route__link"
+                  >
+                    /products/category/smartphones
+                  </a>
+                </td>
+              </tr>
+
+              <!-- create product -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--post">Post</span>
+                </td>
+                <td>
+                  <span class="route__link route__link--disabled">
+                    /products
+                  </span>
+                </td>
+              </tr>
+
+              <!-- update product -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--update"
+                    >Update
+                  </span>
+                </td>
+                <td>
+                  <span class="route__link route__link--disabled">
+                    /products/:id
+                  </span>
+                </td>
+              </tr>
+
+              <!-- update product (patch) -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--update">Patch</span>
+                </td>
+                <td>
+                  <span class="route__link route__link--disabled">
+                    /products/:id
+                  </span>
+                </td>
+              </tr>
+
+              <!-- delete product -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--delete"
+                    >Delete</span
+                  >
+                </td>
+                <td>
+                  <span class="route__link route__link--disabled">
+                    /products/:id
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- users -->
+        <section class="source__container">
+          <h3 class="source__title">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+              <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+            </svg>
+            <span>Users</span>
+          </h3>
+
+          <!-- rutas -->
+          <table>
+            <tbody>
+              <!-- get all users -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--get">Get</span>
+                </td>
+                <td>
+                  <a href="/api/v1/users" target="_blank" class="route__link">
+                    /users
+                  </a>
+                </td>
+              </tr>
+
+              <!-- get user by id -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--get">Get</span>
+                </td>
+                <td>
+                  <a
+                    href="/api/v1/users/aa35778d-df00-49a7-8a19-215c8147a46e"
+                    target="_blank"
+                    class="route__link"
+                  >
+                    /users/:id
+                  </a>
+                </td>
+              </tr>
+
+              <!-- create user -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--post">Post</span>
+                </td>
+                <td>
+                  <span class="route__link route__link--disabled">
+                    /users
+                  </span>
+                </td>
+              </tr>
+
+              <!-- update user -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--update"
+                    >Update</span
+                  >
+                </td>
+                <td>
+                  <span class="route__link route__link--disabled">
+                    /users/:id
+                  </span>
+                </td>
+              </tr>
+
+              <!-- update user (patch) -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--update">Patch</span>
+                </td>
+                <td>
+                  <span class="route__link route__link--disabled">
+                    /users/:id
+                  </span>
+                </td>
+              </tr>
+
+              <!-- delete user -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--delete"
+                    >Delete</span
+                  >
+                </td>
+                <td>
+                  <span class="route__link route__link--disabled">
+                    /users/:id
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- categories -->
+        <section class="source__container">
+          <h3 class="source__title">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 4h6v6h-6z"></path>
+              <path d="M14 4h6v6h-6z"></path>
+              <path d="M4 14h6v6h-6z"></path>
+              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+            </svg>
+            <span>Categories</span>
+          </h3>
+
+          <!-- rutas -->
+          <table>
+            <tbody>
+              <!-- get all categories -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--get">Get</span>
+                </td>
+                <td>
+                  <a
+                    href="api/v1/categories"
+                    target="_blank"
+                    class="route__link"
+                  >
+                    /categories
+                  </a>
+                </td>
+              </tr>
+
+              <!-- get category by name -->
+              <tr>
+                <td>
+                  <span class="route__method route__method--get">Get</span>
+                </td>
+                <td>
+                  <a
+                    href="/api/v1/categories/smartphones"
+                    target="_blank"
+                    class="route__link"
+                  >
+                    /categories/smartphones
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "9bc39b2b-bee3-4964-be32-9a34e3ab929f",
+    "name": "smartphones"
+  },
+  {
+    "id": "20f7dc07-76df-48f4-8917-f34870f3f8d7",
+    "name": "laptops"
+  },
+  {
+    "id": "583ec998-f395-47c3-8357-4aa3525bb998",
+    "name": "fragrances"
+  },
+  {
+    "id": "34782030-1395-4768-8caf-865aea11394f",
+    "name": "skincare"
+  },
+  {
+    "id": "8ab7f0fe-ff74-4244-97dc-a09d7ce2b030",
+    "name": "groceries"
+  },
+  {
+    "id": "0b0c38b9-0501-43fb-abe3-b75e96226704",
+    "name": "home-decoration"
+  },
+  {
+    "id": "bb22bd6f-c219-4df9-9634-8990aa0dca19",
+    "name": "furniture"
+  },
+  {
+    "id": "d868bc99-59a2-4f4d-b49b-08d6c2afad79",
+    "name": "tops"
+  },
+  {
+    "id": "16b2ca98-898a-4022-b13d-331854f4a832",
+    "name": "womens-dresses"
+  },
+  {
+    "id": "bc74c421-7dd3-4f1a-b5ef-3e7609ddc02e",
+    "name": "womens-shoes"
+  },
+  {
+    "id": "c19dac35-2d1b-413a-9f82-7674c3e682e2",
+    "name": "mens-shirts"
+  },
+  {
+    "id": "08b7430e-b8ea-4b5b-8b67-f7a7d1879661",
+    "name": "mens-shoes"
+  },
+  {
+    "id": "6236bf91-55e3-45b7-94d0-7cd9551978ab",
+    "name": "mens-watches"
+  },
+  {
+    "id": "071d0f25-43f9-4810-b2a4-c9bb496add87",
+    "name": "womens-watches"
+  },
+  {
+    "id": "29c418c1-feb3-4668-a04e-d8f8c33fc362",
+    "name": "womens-bags"
+  },
+  {
+    "id": "91990de2-e289-4488-9c58-9d9b15e73ca4",
+    "name": "womens-jewellery"
+  },
+  {
+    "id": "31673a56-a570-4773-aab2-53e01c859f9c",
+    "name": "sunglasses"
+  },
+  {
+    "id": "a94d0da0-336b-4d4b-95c7-92449c1d8b53",
+    "name": "automotive"
+  },
+  {
+    "id": "648256d8-18bd-41a7-a814-3719b5c7c2ba",
+    "name": "motorcycle"
+  },
+  {
+    "id": "3b55ae22-04e9-431b-b3c2-b4f4a73612a7",
+    "name": "lighting"
+  }
+]
